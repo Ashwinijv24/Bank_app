@@ -21,7 +21,7 @@ def api_root(request):
             'credit-cards': '/api/credit-cards/',
             'reports': '/api/reports/dashboard/',
         },
-        'frontend': 'http://localhost:3000',
+        'frontend': 'https://wonderful-palmier-5d5bcb.netlify.app',
         'admin': '/admin/',
     })
 
