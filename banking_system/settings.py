@@ -87,6 +87,15 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://wonderful-palmier-5d5bcb.netlify.app",
+    "https://bank-app-aoc8.onrender.com",   # 👈 ADD THIS
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://wonderful-palmier-5d5bcb.netlify.app",
+    "https://bank-app-aoc8.onrender.com",   # 👈 ADD THIS
 ]
 
 AUTH_USER_MODEL = 'staff.Staff'
