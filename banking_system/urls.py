@@ -21,7 +21,7 @@ def api_root(request):
             'credit-cards': '/api/credit-cards/',
             'reports': '/api/reports/dashboard/',
         },
-        'frontend': 'https://wonderful-palmier-5d5bcb.netlify.app',
+        'frontend': 'https://enchanting-capybara-9efc5b.netlify.app',
         'admin': '/admin/',
     })
 

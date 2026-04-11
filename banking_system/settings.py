@@ -92,6 +92,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://wonderful-palmier-5d5bcb.netlify.app",
+    "https://enchanting-capybara-9efc5b.netlify.app",
     "https://bank-app-3-1fn0.onrender.com",
 ]
 
@@ -99,6 +100,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://wonderful-palmier-5d5bcb.netlify.app",
+    "https://enchanting-capybara-9efc5b.netlify.app",
     "https://bank-app-3-1fn0.onrender.com",
 ]
 
