@@ -22,6 +22,7 @@ def api_root(request):
             'reports': '/api/reports/dashboard/',
         },
         'frontend': 'https://enchanting-capybara-9efc5b.netlify.app',
+        'backend': 'https://bank-app-3-1fn0.onrender.com',
         'admin': '/admin/',
     })
 
