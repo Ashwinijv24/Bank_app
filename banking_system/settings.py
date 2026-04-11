@@ -92,14 +92,14 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://wonderful-palmier-5d5bcb.netlify.app",
-    "https://bank-app-aoc8.onrender.com",
+    "https://bank-app-3-1fn0.onrender.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "https://wonderful-palmier-5d5bcb.netlify.app",
-    "https://bank-app-aoc8.onrender.com",
+    "https://bank-app-3-1fn0.onrender.com",
 ]
 
 AUTH_USER_MODEL = 'staff.Staff'
