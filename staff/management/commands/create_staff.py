@@ -21,5 +21,4 @@ class Command(BaseCommand):
             if not Staff.objects.filter(username=u['username']).exists():
                 Staff.objects.create_user(password=password, **u)
                 self.stdout.write(self.style.SUCCESS(f"Created {u['username']}"))
-            else:
-                self.stdout.write(f"Already exists: {u['username']}")
+        self.stdout.write(self.style.SUCCESS('Staff setup complete!'))
